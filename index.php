@@ -11,7 +11,7 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">     
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /> 
   <link rel="stylesheet" href="secondstep.css" type="text/css" />
-<link href='/SecondStep/Oswald-Regular.ttf' rel='stylesheet' type='text/css'>
+<link href='/taxi/Oswald-Regular.ttf' rel='stylesheet' type='text/css'>
 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script type="text/javascript" src="http://ciasteczka.eu/cookiesEU-latest.min.js"></script>
@@ -20,6 +20,7 @@ and open the template in the editor.
         
           <div id="img1" class="parallax-bg">
     <h1>You talkin' to me?</h1>
+    <a class="ghost" href="#">Download</a>
   </div>
         <header>
            The idea had been growing in my brain <br>
@@ -28,6 +29,7 @@ and open the template in the editor.
   <section>
   Ladies and gentlemen… we are met today at a crossroads, Columbus Circle. This is no ordinary place. It is a place where many roads and many lives intersect. It is appropriate that we meet here today, because these are not ordinary times. We meet at a crossroads in history. For far too long, the wrong roads have been taken. The wrong roads have led us into war, into poverty, into unemployment, and inflation. Today I say to you, we have reached the turning point. No longer will we, the people, suffer for the few. I would lie to you if I told you the new roads would be easy. They will not be easy. Nothing that is right and good has ever been easy. We, the people, know that. And we, the people, know the right roads and the good. Today I say to you, we are the people, you and I. And it is time to let the people rule! Thank you. (ang.)
 	Postać: senator Charles Palantine
+    
 
   </section>
       
