@@ -34,7 +34,7 @@ and open the template in the editor.
   </section>
       
       <div id="img2" class="parallax-bg">
-    <h1>Then who the hell else are you talking to?</h1>
+    <h1>Then who the hell else <br> are you talking to?</h1>
   </div>
         
          <header>
