@@ -6,17 +6,17 @@
 }
 
 
+/*
 header
 {
     color: black;
     font-size: 45px;
     font-weight: bolder;
     text-align: center;
-    height: 140px;
+    height: 160px;
     padding-top: 40px;
     font-family: 'LocalOswald', sans-serif;
-    padding-bottom: 40px;
-    background-color: #eff
+    background-color: #eff;
 }
 section
 {
@@ -25,21 +25,9 @@ section
   padding-left: 15%;
   text-align: justify;
   padding-bottom: 50px;
+  padding-top: 50px;
   font-family: "Open Sans", sans-serif;
   background-color: #eff;
-}
-
-body
-{
-   background-color: #00008B; 
-   max-width: 3400px;
-   min-width: 750px;
-   padding: 0;
-   margin: 0 auto;
-   display: block;
-   font-size: 100%;
-  font-family: "Open Sans", sans-serif;
-
 }
 
 #footer
@@ -53,6 +41,23 @@ body
     min-width:97%;
     line-height: 50px;
     font-family: 'LocalOswald', sans-serif;
+}
+
+*/
+.backgr
+{  
+background-color: #00008B !important; 
+}
+
+body 
+{
+   max-width: 3400px;
+   min-width: 750px;
+   padding: 0!important;
+   margin: 0 auto!important;
+   display: block!important;
+   font-size: 100%;
+  font-family: "Open Sans", sans-serif;
 }
 
 
@@ -70,10 +75,17 @@ body
 #img1
 {
    background-image: url(img1.png);
+    opacity: 0.85 !important;
+
 }
 #img2
 {
    background-image: url(img2.jpeg);
+
+}
+#img3
+{
+   background-color:rgba(0, 0, 0, 0.8) !important;
 }
 .parallax-bg h1
 {
@@ -83,6 +95,8 @@ body
   font-family: 'LocalOswald';
   font-weight: bolder !important;
    color: white;
+  opacity: 1 !important;
+
      }
 /*
     -webkit-animation-name: example; /* Chrome, Safari, Opera 
@@ -136,4 +150,30 @@ a.ghost:hover, a.ghost:focus {
     transition: color 0.3s ease-in, background-color 0.3s ease-in;
 margin: 0 auto;
    display: block;
+      text-decoration: none !important;
+}
+
+.navbar
+{
+background-color:rgba(0, 0, 0, 0.8) !important;
+
+}
+.navbar:hover
+{
+background-color:rgba(0, 0, 0, 0.9) !important;
+
+}
+p
+{
+  text-align: justify !important;
+  min-width: 100% !important;
+}
+.arti
+{
+  padding: 15px !important;
+}
+/*
+.navbar 
+{
+opacity: 0.8 !important;
 }
