@@ -50,7 +50,7 @@ and open the template in the editor.
       </div><!-- End Container-->
     </nav>
           <div class="backgr">
-          <div id="img1" class="parallax-bg">
+          <div id="img1a" class="parallax-bg">
     <h1>You talkin' to me?</h1>
     <a class="ghost" href="#">Download</a>
   </div></div>
@@ -112,10 +112,10 @@ and open the template in the editor.
 
 
 
-      <div class="backgr">
+     
       <div id="img3" class="parallax-bg">
     <h1>Then who the hell else <br> are you talking to?</h1>
-  </div></div>
+  </div>
     <div id="gallery">     
           <div class="jumbotron">
       <div class="container text-center">

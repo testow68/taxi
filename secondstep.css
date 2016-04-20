@@ -44,9 +44,16 @@ section
 }
 
 */
-.backgr
+#img2 
 {  
 background-color: #00008B !important; 
+}
+#img2 h1
+{  
+background-color: #00008B !important; 
+z-index: 20 !important;
+opacity: 0.5 !important;
+color: white;
 }
 
 body 
@@ -69,13 +76,12 @@ body
   -webkit-transition: all 0.2s ease;
   -moz-transition:all 0.2s ease;
   transition: all 0.2s ease;
-  opacity: 0.9;
 }
 
-#img1
+#img1a
 {
-   background-image: url(img1.png);
-    opacity: 0.85 !important;
+   background-image: url(img1a.png);
+ 
 
 }
 #img2
@@ -83,9 +89,11 @@ body
    background-image: url(img2.jpeg);
 
 }
-#img3
+
+#img3 
 {
-   background-color:rgba(0, 0, 0, 0.8) !important;
+   background-color: black !important;
+ color: white !important;
 }
 .parallax-bg h1
 {
@@ -94,8 +102,7 @@ body
   font-size: 90px;
   font-family: 'LocalOswald';
   font-weight: bolder !important;
-   color: white;
-  opacity: 1 !important;
+  color: white;
 
      }
 /*
