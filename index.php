@@ -14,8 +14,10 @@ and open the template in the editor.
 <link href='/taxi/Oswald-Regular.ttf' rel='stylesheet' type='text/css'>
 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script type="text/javascript" src="http://ciasteczka.eu/cookiesEU-latest.min.js"></script>
  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+
+</script>
     </head>
   
 
@@ -34,7 +36,8 @@ and open the template in the editor.
             <span class="icon-bar"></span>
           </button>
 
-          <a href="" class="navbar-brand">TaxiDriver</a>
+          <a href="" class="navbar-brand">TaxiDriver
+         <!-- <img alt="Brand" src="..."></a>-->
         </div><!-- Navbar Header-->
         <div class="collapse navbar-collapse" id="navbar-collapse">
           
@@ -208,7 +211,14 @@ and open the template in the editor.
 
 
 
-
+<div id="cookies"><div id="cootxt">Nasza strona internetowa używa plików cookies (tzw. ciasteczka) w celach statystycznych, reklamowych oraz funkcjonalnych. Dzięki nim możemy indywidualnie dostosować stronę do twoich potrzeb. Każdy może zaakceptować pliki cookies albo ma możliwość wyłączenia ich w przeglądarce, dzięki czemu nie będą zbierane żadne informacje. Dowiedz się więcej jak je wyłączyć.</div><div id="cooki">[x]</div></div>
+<script type="text/javascript">
+			$(function(){			
+				$('#cooki').click(function(){
+						$('#cookies').fadeOut(800);		
+					});						
+					});
+					</script>
 
 
 
@@ -218,7 +228,7 @@ and open the template in the editor.
 
 	(function(){
 		var documentEl = $(document),
-		parallaxBg = $('#img1');
+		parallaxBg = $('#img1a');
 
 		documentEl.on('scroll', function(){
 			var currScrollPos = documentEl.scrollTop();
@@ -264,5 +274,8 @@ and open the template in the editor.
   <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+
+
 
 </html>
